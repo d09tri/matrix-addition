@@ -32,8 +32,7 @@ namespace MatrixAddition
 
             Console.WriteLine("Step 3. Add two matrix");
             Matrix mt3 = new Matrix();
-            mt3.Rows = mt1.Rows;
-            mt3.Cols = mt1.Cols;
+
             mt3.AddTwoMatrix(mt1, mt2);
             mt3.PrintMatrix();
 
